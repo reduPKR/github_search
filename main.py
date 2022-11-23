@@ -37,7 +37,7 @@ def send_to_webhook(item):
 
 if __name__ == "__main__":
     url = "https://api.github.com/search/code?q={}-user:MMMMM&in:file&sort=created&order=desc"
-    token = "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"
+    token = ""
 
     header = {
         'authorization': 'Bearer {}'.format(token)
